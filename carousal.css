@@ -1,0 +1,77 @@
+ body{
+     overflow-x: hidden;
+ }
+ 
+.container1{
+    display: none;
+}
+#carouselExampleIndicators{
+    display: block;
+}
+ 
+.about2{
+    background-color:rgb(214, 131, 131);
+    padding-top: 4%;
+   
+    
+}
+.image2{
+
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+
+}
+.image2 img{
+    height: 45%;
+    width: auto;
+    /* max-width: 70%;  */
+    /* border: 3px solid black; */
+}
+
+.text-arch{
+    /* position: relative; */
+    /* left: -.5em; */
+    font-size: 1.6rem; 
+     color:black;
+     /* margin: auto; */
+     /* margin: 2%; */
+     margin-top: 4%;
+     /* padding-left:.4em ;padding-top: .5em; */
+}
+.ceo{
+ 
+    width: 100%;
+    font-size: 1.1rem;
+    color: rgb(223, 213, 213);
+     text-align: center;
+ 
+    margin:auto;
+    margin-top:12%;
+    margin-left: -1%;
+}
+ 
+.image2 input{
+    /* position: absolute;top: 85%;left:.5em; */
+    position: relative;
+    top: 28%;
+    left: 2%;
+    font-size: 1.1rem;color: rgb(204, 168, 168);
+    color: black;
+    width: 70vw;
+    font-weight: 400;border: 0px;
+    /* margin-top: 28%; */
+}
+ input:hover{
+    font-weight: 800;cursor: pointer;background-color: rgb(206, 214, 221);
+}
+.description{
+    width:100%; 
+    margin-top: 9%;
+    /* margin-bottom: 3%; */
+    text-align: center;
+}

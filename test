@@ -1,0 +1,9 @@
+create table books(sr_no int primary key, name varchar(20), cost int,count int,author varchar(30));
+
+insert into books values(1,'ds',20,5,'manish');
+insert into books values(2,'ss',30,6,'ramesh');
+insert into books values(3,'ws',40,7,'suresh');
+insert into books values(4,'es',50,8,'ram');
+insert into books values(5,'rs',60,5,'shyam');
+insert into books values(6,'ts',70,2,'raman');
+

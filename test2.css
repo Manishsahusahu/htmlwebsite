@@ -1,0 +1,58 @@
+.about2{
+    background-color:rgb(214, 131, 131);
+    padding-top: 4%;
+}
+.image2{
+
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    align-items: center;
+
+}
+.image2 img{
+    height: 45%;
+    max-width: 70%; 
+    /* border: 3px solid black; */
+}
+
+.text-arch{
+    position: relative;
+    /* left: -.5em; */
+    font-size: 1.6rem; 
+     color:black;
+     margin: 2%;
+     margin-top: 5%;
+     /* padding-left:.4em ;padding-top: .5em; */
+}
+.ceo{
+    /* position: absolute; */
+    /* top:55%;left:.5em; */
+    font-size: 1.1rem;
+    color: rgb(223, 213, 213);
+    margin: 1%;
+}
+.btn{
+    margin-inline: auto;
+    margin-bottom: 9%;
+    width: 63%;
+    /* height: 2.1em; */
+
+}
+.btn input{
+    /* position: absolute;top: 85%;left:.5em; */
+    font-size: 1.1rem;color: rgb(204, 168, 168);
+    color: black;
+    width: 100%;
+    font-weight: 400;border: 0px;
+}
+.btn input:hover{
+    font-weight: 800;cursor: pointer;background-color: rgb(206, 214, 221);
+}
+.description{
+    width:80%; 
+    margin-bottom: 3%;
+    text-align: center;
+}

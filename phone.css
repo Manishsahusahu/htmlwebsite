@@ -1,0 +1,13 @@
+body{
+    overflow-x: hidden;
+}
+.image1 img{
+    width: auto;
+    height:25vh;
+    margin:.5em;
+
+}
+/* .image2 img, .image3 img{
+    width: auto;
+    height:30vh;
+} */
